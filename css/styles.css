@@ -15,11 +15,14 @@
    
 }
 body {
+
     font-family: 'Roboto', sans-serif;
     background: var(--white-background);
+    color: var(--text);
 }
 .content-body {
     font-family: 'Roboto', sans-serif;
+    color: var(--text);
     background: #E5E5E5;
 }
 .list{
@@ -29,7 +32,7 @@ body {
     text-decoration: none;
 }
 .logo-text {
-    font-family: inherit;
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -42,10 +45,12 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;}
 .adress-link {
+    font-style: normal;
     font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color:var(--text)
+
 }
 .title-list {
     font-weight: 500;
@@ -129,6 +134,9 @@ background-color: var(--avctive)
 }
 
 /* Footer */
+.footer-first-logo {
+    color:var(--primary-brand)
+}
     .footer-second-logo {
         color:var(--light)
     }
