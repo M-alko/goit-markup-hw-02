@@ -44,14 +44,17 @@ body {
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;}
-.adress-link {
+.adress {
     font-style: normal;
+}
+.adress-link {
     font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color:var(--text)
-
+color:var(--text);
 }
+
+
 .title-list {
     font-weight: 500;
 font-size: 20px;
@@ -87,6 +90,7 @@ color:var(--primary-brand);
 .navigation-item :focus {
  color:var(--avctive)
 }
+
 .adress-list-item :hover,
 .adress-list-item :focus {
     color:var(--avctive)
