@@ -1,19 +1,26 @@
 :root{
     --primary-brand:#4D5AE5;
     --dark: #2E2F42;
+    --success:#31D0AA;
     --hero-background:#2E2F42;
-    --acent:#E7E9FC;
     --light:#F4F4FD;
     --white-background:#FFFFFF;
     --text:#434455;
     --subtle-text:#8E8F99;
     --avctive:#404BBF;
+    --accent:#E7E9FC;
+    --modal-overlay:#2E2F42;
+    --modal-background:#FCFCFC;
+
    
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color:var(--text);
-
+    background: var(--white-background);
+}
+.content-body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
 }
 .list{
     list-style: none;
@@ -22,10 +29,10 @@ body {
     text-decoration: none;
 }
 .logo-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase
 }
@@ -40,7 +47,27 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color:var(--text)
 }
-
+.title-list {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color:var(--hero-background)
+}
+.text-list {
+    font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color:var(--text)
+}
+.titles {
+    font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--dark)
+}
 /* Header */
 .first-logo {
 color:var(--primary-brand);
@@ -71,19 +98,60 @@ letter-spacing: 0.02em;
 color: var(--white-background);
  }
  .btn-hero {
-    font-family: 'Roboto',sans-serif;
+    font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.50;
-align-items: center;
 letter-spacing: 0.04em;
 color: var(--white-background);
 background-color: var(--primary-brand);
 cursor: pointer;
+
  }
- .btn-hero :hover,
- .btn-hero :focus {
+ .btn-hero:hover,
+ .btn-hero:focus {
 background-color: var(--avctive)
  }
+/* Advances */
+.advances-title,
+.content-title {
+    display:none;
+}
+/* benefits */
 
+/* Users */
+.users {
+    background:var(--light);
+}
+.users-item {
+    background: var(--white-background);
+}
+
+/* Footer */
+    .footer-second-logo {
+        color:var(--light)
+    }
+    .footer {
+        background: var(--hero-background);
+    }
+    .footer-text {
+color:var(--light)
+    }
+/* button content */
+.content-button {
+    font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.04em;
+color:var(--primary-brand);
+background:var(--light);
+cursor:pointer;
+}
+.content-button:hover,
+.content-button:focus {
+    color: var(--white-background);
+    background:var(--avctive);
+}
