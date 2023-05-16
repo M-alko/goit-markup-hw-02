@@ -23,7 +23,7 @@ body {
 .content-body {
     font-family: 'Roboto', sans-serif;
     color: var(--text);
-    background: #E5E5E5;
+   
 }
 .list{
     list-style: none;
@@ -41,14 +41,12 @@ body {
 }
 .nav-item {
     font-weight: 500;
-font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;}
 .adress {
     font-style: normal;
 }
 .adress-link {
-    font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color:var(--text);
@@ -63,7 +61,6 @@ letter-spacing: 0.02em;
 color:var(--hero-background)
 }
 .text-list {
-    font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color:var(--text)
@@ -108,9 +105,7 @@ color: var(--white-background);
  }
  .btn-hero {
     font-family: inherit;
-font-style: normal;
 font-weight: 500;
-font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--white-background);
@@ -153,9 +148,7 @@ color:var(--light)
 /* button content */
 .content-button {
     font-family: inherit;
-font-style: normal;
 font-weight: 500;
-font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color:var(--primary-brand);
