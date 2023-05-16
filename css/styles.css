@@ -106,6 +106,7 @@ color: var(--white-background);
  .btn-hero {
     font-family: inherit;
 font-weight: 500;
+font-size: 16px;    
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--white-background);
@@ -149,6 +150,7 @@ color:var(--light)
 .content-button {
     font-family: inherit;
 font-weight: 500;
+font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color:var(--primary-brand);
