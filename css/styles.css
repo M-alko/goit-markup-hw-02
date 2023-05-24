@@ -20,6 +20,10 @@ body {
     background: var(--white-background);
     color: var(--text);
 }
+.container {
+    width: 1158px  ;
+
+}
 .content-body {
     font-family: 'Roboto', sans-serif;
     color: var(--text);
@@ -32,12 +36,14 @@ body {
     text-decoration: none;
 }
 .logo-text {
+    display: inline-block;
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase
+    
 }
 .nav-item {
     font-weight: 500;
@@ -74,6 +80,18 @@ text-transform: capitalize;
 color:var(--dark)
 }
 /* Header */
+.header-container {
+    display: flex;
+    
+}
+
+.header-list {
+    display: flex;
+}
+.header-list .navigation-item:not(:last-child){
+    margin-right: 40px;
+}
+
 .first-logo {
 color:var(--primary-brand);
 }
@@ -81,11 +99,21 @@ color:var(--primary-brand);
     color: var(--dark);
 }
 .link-list {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: var(--dark);
 }
+.adress-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 0;
+}
+
 .navigation-item :hover,
 .navigation-item :focus {
  color:var(--avctive)
+
 }
 
 .adress-list-item :hover,
