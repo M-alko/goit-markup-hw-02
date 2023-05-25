@@ -22,7 +22,8 @@ body {
 }
 .container {
     width: 1158px  ;
-
+    padding: 0 15px;
+    margin: 0 auto;
 }
 .content-body {
     font-family: 'Roboto', sans-serif;
@@ -36,7 +37,11 @@ body {
     text-decoration: none;
 }
 .logo-text {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 76px;
+
     font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -44,6 +49,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase
     
+}
+.navigation {
+    display: flex;;
 }
 .nav-item {
     font-weight: 500;
@@ -82,11 +90,19 @@ color:var(--dark)
 /* Header */
 .header-container {
     display: flex;
-    
+    align-items: center;
+   
 }
 
 .header-list {
     display: flex;
+    padding: 0;
+    width: calc((1128+3*24)/7);
+    gap: 40px   ;
+}
+.navigation-item{
+    padding-top: 24px;
+    padding-bottom: 24px;   
 }
 .header-list .navigation-item:not(:last-child){
     margin-right: 40px;
@@ -104,10 +120,14 @@ color:var(--primary-brand);
     padding-bottom: 24px;
     color: var(--dark);
 }
+.adress {
+    margin-left:auto;
+}
 .adress-list {
     display: flex;
     gap: 40px;
-    margin-right: 0;
+    padding: 0;
+
 }
 
 .navigation-item :hover,
@@ -120,7 +140,24 @@ color:var(--primary-brand);
 .adress-list-item :focus {
     color:var(--avctive)
 }
-/* Hero */
+.visually-hiden{
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* Hero */ 
+.hero-title{
+
+}
+   
+
  .hero {
     background-color: var(--hero-background);
  }
@@ -147,13 +184,23 @@ cursor: pointer;
 background-color: var(--avctive)
  }
 /* Advances */
-.advances-title,
-.content-title {
-    display:none;
+.advances-list {
+    display: flex;
+ justify-content: center;
+ margin-left: 24px;
 }
+
 /* benefits */
+.benefits-list{
+    display: flex;
+    justify-content: center;
+}
 
 /* Users */
+.users-list{   
+    display: flex;
+    justify-content: center;
+}
 .users {
     background:var(--light);
 }
