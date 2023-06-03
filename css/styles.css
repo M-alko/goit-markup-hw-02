@@ -11,8 +11,15 @@
     --accent:#E7E9FC;
     --modal-overlay:#2E2F42;
     --modal-background:#FCFCFC;
+}
 
-   
+   html {
+    box-sizing: border-box;
+   }
+   *::before,
+   *::after{
+    box-sizing: inherit;
+   }
 }
 body {
 
