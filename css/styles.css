@@ -60,6 +60,7 @@ body {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 1px solid #E7E9FC;
 }
 .content-body {
     font-family: 'Roboto', sans-serif;
@@ -68,6 +69,12 @@ body {
 .hero-box {
     flex-direction: column;
     
+}
+.benefits-box {
+    flex-direction: column;
+}
+.users-box {
+    flex-direction: column;
 }
 
 
@@ -216,35 +223,68 @@ color: var(--white-background);
 background-color: var(--primary-brand);
 cursor: pointer;
 margin-top: 48px ;
+display: inline-block;
+padding: 16px 32px;
+border-radius: 3px;
+border: 0;
  }
  .btn-hero:hover,
  .btn-hero:focus {
 background-color: var(--avctive)
  }
 /* Advances */
-.advances-list {
-    display: flex;
- justify-content: center;
- margin-left: 24px;
+.advances-list-item:not(:last-child) {
+    margin-right: 24px;
+}
+.advances-title-item {
+    margin-bottom: 8px;
+}
+.advances-list-item {
+    width: 264px;
 }
 
 /* benefits */
-.benefits-list{
-    display: flex;
-    justify-content: center;
+.benefits {
+    padding-top: 0;
+}
+.benefits-title {
+    margin-bottom: 72px;
+    
+}
+.benefits-item:not(:last-child) {
+    margin-right: 24px;
 }
 
 /* Users */
-.users-list{   
-    display: flex;
-    justify-content: center;
+.users-title {
+    margin-bottom: 72px;
+
 }
 .users {
     background:var(--light);
 }
 .users-item {
     background: var(--white-background);
+    
 }
+.users-item:not(:last-child) {
+margin-right: 24px;
+}
+.users-item {
+    flex-direction: column;
+
+
+}
+.users-img {
+    margin-bottom: 32px;
+}
+.users-title {
+    margin-bottom: 8px;
+}
+.users-text {
+    margin-bottom: 32px;
+}
+
 
 /* Footer */
 .footer-first-logo {
@@ -255,6 +295,7 @@ background-color: var(--avctive)
     }
     .footer {
         background: var(--hero-background);
+        padding:100px 0;
     }
     .footer-text {
 color:var(--light)
@@ -274,4 +315,17 @@ cursor:pointer;
 .content-button:focus {
     color: var(--white-background);
     background:var(--avctive);
+}
+.footer-box {
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.footer-text {
+   width: 264px;
+   margin-top: 16px;
+}
+
+.content-button-item {
+    flex-direction: raw;
 }
