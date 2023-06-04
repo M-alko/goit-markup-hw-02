@@ -256,10 +256,7 @@ background-color: var(--avctive)
 }
 
 /* Users */
-.users-title {
-    margin-bottom: 72px;
 
-}
 .users {
     background:var(--light);
 }
@@ -272,18 +269,17 @@ margin-right: 24px;
 }
 .users-item {
     flex-direction: column;
-
-
+}
+.users-content-box {
+    padding:32px 16px 32px 16px;
 }
 .users-img {
-    margin-bottom: 32px;
+
 }
 .users-title {
     margin-bottom: 8px;
 }
-.users-text {
-    margin-bottom: 32px;
-}
+
 
 
 /* Footer */
